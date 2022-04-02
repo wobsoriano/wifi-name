@@ -10,6 +10,10 @@ const getWifiName = async () => {
 
   const name = decoded.replace("\n", "");
 
+  if (!name) {
+    throw new Error("Could not get SSID");
+  }
+
   return name;
 };
 

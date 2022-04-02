@@ -13,6 +13,10 @@ const getWifiName = async () => {
   name = /^\s*SSID\s*: (.+)\s*$/gm.exec(decoded);
   name = name && name.length ? name[1] : null;
 
+  if (!name) {
+    throw new Error("Could not get SSID");
+  }
+
   return name;
 };
 
