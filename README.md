@@ -7,7 +7,7 @@ Get current wifi name.
 Import the module in your Deno app:
 
 ```ts
-import getWifiName from "https://deno.land/x/wifi_name@v0.1.1/mod.ts";
+import getWifiName from "https://deno.land/x/wifi_name@v0.1.0/mod.ts";
 ```
 
 Use it
