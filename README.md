@@ -1,4 +1,4 @@
-[![nest.land](https://nest.land/badge-large.svg)](https://nest.land/package/<your-module-name>)
+[![nest.land](https://nest.land/badge.svg)](https://nest.land/package/wifi_name)
 
 # wifi-name
 
