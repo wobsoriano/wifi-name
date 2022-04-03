@@ -9,9 +9,11 @@ function getWifiName() {
     return getDarwinWifiName();
   } else if (OS === "windows") {
     return getWindowsWifiName();
+  } else if (OS === "linux") {
+    return getLinuxWifiName();
   }
 
-  return getLinuxWifiName();
+  throw new Error("Not supported");
 }
 
 export default getWifiName;
