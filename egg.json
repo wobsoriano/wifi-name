@@ -4,7 +4,7 @@
   "entry": "./mod.ts",
   "description": "Get current wifi name.",
   "homepage": "https://github.com/wobsoriano/wifi-name",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "releaseType": "patch",
   "unstable": false,
   "unlisted": false,
