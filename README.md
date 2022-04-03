@@ -1,5 +1,7 @@
 # wifi-name
 
+[![nest.land](https://nest.land/badge-large.svg)](https://nest.land/package/<your-module-name>)
+
 Get current wifi name.
 
 ## Quick start
